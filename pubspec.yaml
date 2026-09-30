@@ -1,0 +1,29 @@
+name: riverpod_todo_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: any
+  riverpod_annotation: any
+  freezed_annotation: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any
+  riverpod_generator: any
+  riverpod_lint: any
+  freezed: any
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
